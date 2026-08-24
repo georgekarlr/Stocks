@@ -27,6 +27,8 @@ import {
   Printer,
   Download,
   Activity,
+  Video,
+  Cloud,
 } from 'lucide-react';
 import { UserProfile } from '../types/stock';
 
@@ -625,6 +627,43 @@ export const UserManual: React.FC<UserManualProps> = ({ userProfile }) => {
               <p className="text-slate-400 text-[11px]">
                 Access the <strong>Architecture</strong> button in the top navigation bar to inspect interactive nodes, download standalone vector SVG blueprints, or export formatted PDF documents.
               </p>
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      id: 'demo-video-proof',
+      title: '16. Hackathon Demo Video & Google Cloud Run Verification Proof',
+      icon: Video,
+      content: (
+        <div className="space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed">
+          <p>
+            For hackathon evaluation and technical review, StockPulse AI includes complete guidelines for the mandatory public demonstration video and Google Cloud deployment verification:
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="rounded-xl border border-cyan-500/30 bg-cyan-950/20 p-3.5 space-y-1.5">
+              <h5 className="font-bold text-cyan-300 flex items-center gap-1.5">
+                <Video className="h-4 w-4" /> Video Requirements Checklist
+              </h5>
+              <ul className="list-disc list-inside space-y-1 text-slate-300 text-xs">
+                <li><strong>Duration:</strong> Under 4 minutes maximum (~3:45 target).</li>
+                <li><strong>Public Platform:</strong> Public YouTube or Vimeo (not unlisted/private).</li>
+                <li><strong>Audio &amp; Language:</strong> Clear English voiceover with subtitles.</li>
+                <li><strong>Core Narrative:</strong> Problem, Value Proposition &amp; Live Agent In Action.</li>
+              </ul>
+            </div>
+
+            <div className="rounded-xl border border-emerald-500/30 bg-emerald-950/20 p-3.5 space-y-1.5">
+              <h5 className="font-bold text-emerald-300 flex items-center gap-1.5">
+                <Cloud className="h-4 w-4" /> Google Cloud Run Proof
+              </h5>
+              <ul className="list-disc list-inside space-y-1 text-slate-300 text-xs">
+                <li><strong>Cloud Run Console:</strong> Shows container service, region, and CPU/RAM specs.</li>
+                <li><strong>Live .run.app URL:</strong> Verifiable HTTPS endpoint served by Cloud Run.</li>
+                <li><strong>Cloud Logging:</strong> Real-time HTTP logs showing live Gemini 3.7 Flash calls.</li>
+                <li><strong>Guide File:</strong> See <code className="text-emerald-300">DEMO_VIDEO_GUIDE.md</code> for script &amp; storyboard.</li>
+              </ul>
             </div>
           </div>
         </div>

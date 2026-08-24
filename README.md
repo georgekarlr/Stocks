@@ -12,6 +12,7 @@
 
 ## ⚡ Quick Links
 - **Live Hosted Application:** [StockPulse AI Terminal](https://ais-dev-422tk3x2p4mrhdymujnkym-14913470979.asia-southeast1.run.app)
+- **Demo Video Guide & Script:** [`/DEMO_VIDEO_GUIDE.md`](./DEMO_VIDEO_GUIDE.md)
 - **Devpost Submission Answers:** [`/DEVPOST_FORM_RESPONSES.md`](./DEVPOST_FORM_RESPONSES.md)
 - **Devpost Project Overview:** [`/DEVPOST_SUBMISSION.md`](./DEVPOST_SUBMISSION.md)
 
