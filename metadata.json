@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix StockPulse AI - Financial Analyst \u0026 Storytelling Terminal",
+  "description": "An intelligent financial analytics platform powered by Gemini 3.7 Flash. Ingest market data, compute quantitative metrics, generate interactive visualizations, cinematic financial stories, editorial imagery, and AI audio narration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
